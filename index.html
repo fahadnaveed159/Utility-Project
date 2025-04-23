@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Utility</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Matemasie&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+    * {
+      font-family: "Source Code Pro", monospace;
+    }
+  </style>
+  <body class="bg-slate-50">
+    <header class="max-w-7xl mx-auto relative">
+      <nav class="flex w-full justify-between p-7 items-center">
+        <h1 class="md:text-4xl text-2xl font-bold text-black">Utility.</h1>
+        <div id="navb" class="md:flex md:bg-transparent bg-slate-100 md:w-fit w-full items-center gap-12 hidden">
+            <ul id="list" class="flex gap-6 ">
+              <li>Work</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Careers</li>
+            </ul>
+            <button class="bg-black md:text-base text-sm md:mt-0 mt-7 md:px-4 px-3 md:py-4 py-2 text-white font-medium rounded-md">
+              Contact Us
+            </button>
+        </div>
+        <div class="md:hidden block cursor-pointer" onclick="openMenu()">
+            <img src="https://www.svgrepo.com/show/506800/burger-menu.svg" class="w-8 h-8" alt="menu">
+        </div>
+      </nav>
+      <div class="max-w-5xl mx-auto md:py-24 py-16 px-10">
+        <h1 class="md:text-6xl text-4xl font-bold text-black">Build. Launch. Grow.</h1>
+        <p class="text-[#7f7f7f] md:text-xl py-4">
+          Utility crafts award-winning mobile experiences driven by <br />
+          strategy, design and technology.
+        </p>
+        <h2 class="text-black font-medium md:text-2xl">See Our Work !</h2>
+      </div>
+    </header>
+
+     <div  
+      class="text-center font-bold md:text-4xl text-2xl p-10 bg-slate-200 flex justify-center gap-4"
+    >
+      <h1>Challenges More</h1>
+    </div>
+
+    <div class="max-w-7xl px-10 gap-x-24 justify-between mx-auto py-12 md:flex ">
+      <h1 class="md:text-3xl text-2xl md:py-0 py-4  font-medium md:text-left text-center">
+        The <br />
+        Challenge
+      </h1>
+      <p class="md:max-w-xl md:text-left text-center text-[#7f7f7f]">
+        Airbnb’s third-annual global conference, the Airbnb Open, welcomed
+        20,000+ hosts from 100+ countries to LA for a week of social
+        collaboration, learning, speaker panels and specialty classes, capped
+        off by a star-studded awards show and music. For a modern brand like
+        Airbnb, the mobile and digital experience was a prime focus to engage
+        users before, during and after the event, with smartly crafted
+        applications that facilitate the best experience possible.
+      </p>
+    </div>
+
+    <div
+      class="max-w-7xl mx-auto md:flex justify-between lg:gap-24 gap-x-10 items-center px-10 py-8 "
+    >
+      <div class="md:max-w-96">
+        <h1 class="md:text-3xl text-2xl md:text-left text-center font-medium py-4">
+          The <br />
+          Solution
+        </h1>
+        <p class="md:text-left text-center py-2 text-[#7f7f7f]">
+          Utility was chosen as the lead digital partner of the Airbnb Open,
+          designing and developing all mobile app and web platforms surrounding
+          the event, from online registration, itinerary planning, and dynamic
+          micro-event ticketing to various on-site engagement tools and
+          immersive social experiences.
+        </p>
+      </div>
+      <img
+        src="/Pictures/5d420164db84bd4f698a6583_airbnb-1Desktop.png"
+        alt=""
+        class="lg:w-[500px] md:w-96 w-64 py-4 md:mx-0 mx-auto"
+      />
+    </div>
+
+    <div class=" md:max-w-7xl max-w-sm md:flex  mx-auto py-16 w-full px-10">
+      <img
+        src="/Pictures/5d8e57a0167af6c56b11d8bd_airbnb-screens-p-1600.jpeg"
+        alt=""
+      />
+    </div>
+
+    <div class=" md:max-w-7xl px-10 mx-auto md:flex justify-between gap-24 py-10">
+      <h1 class="md:text-3xl text-xl md:text-left text-center font-medium">
+        Peer-to-peer <br />
+        engagement
+      </h1>
+      <p class=" md:w-2/5 md:py-0 py-2 md:text-left text-center text-[#7f7f7f]">
+        We designed and engineered tools to help constituents discover each
+        other, connecting in meaningful ways through modern technology and
+        applications. Using geolocation wristband trackers, we also created a
+        stress-free environment that enabled attendees to roam freely, creating
+        a richer overall experience.
+      </p>
+    </div>
+         
+
+    <div class=" md:max-w-7xl mx-auto w-full">
+      <img
+        src="/Pictures/5d8e57b2d95436e038205601_airbnb-2Desktop-p-1600.jpeg"
+        alt=""
+      />
+    </div>
+
+    <div class="md:max-w-7xl px-10 py-8 mx-auto md:flex gap-20 justify-between ">
+      <h1 class=" md:text-3xl text-lg md:text-left text-center py-2 font-medium">
+        A reliable, one-stop <br />
+        mobile app
+      </h1>
+      <p class=" md:w-2/5 md:text-left text-center text-[#7f7f7f] ">
+        The mobile applications were crucial to the success of the events,
+        helping thousands of free-roaming users find their way around, manage
+        their itineraries, get instant update alerts, track their notes, and
+        dozens of other features right in their pocket, all while keeping
+        performance high in unstable outdoor/indoor environments.
+      </p>
+    </div>
+
+
+    <div class="max-w-7xl mx-auto">
+      <img
+        src="/Pictures/5d41fe8adb84bd6afe8a59c8_forbes-3Desktop.png"
+        alt=""
+      />
+    </div>
+             
+ 
+    <div class="md:max-w-7xl mx-auto md:flex gap-20 justify-between px-10 md:text-left text-center py-4">
+      <h1 class="md:text-3xl text-xl py-2 font-medium">Anywhere <br> anytime</h1>
+      <p class="md:w-2/5 text-[#7f7f7f] ">
+        Easy access to content was the goal of the Forbes investment into large
+        amounts of content specifically targeted at entrepreneurs globally.
+        Users from any region around the world can now experience Forbes high
+        quality content on the mobile devices (iOS and Android phone and
+        tablets) or on their desktops or laptops' web browsers.
+      </p>
+    </div>
+
+    <div class=" md:max-w-7xl mx-auto py-5 px-10 w-full">
+      <img
+        src="/Pictures/5d41fe94db84bd628b8a59db_forbes-4Desktop-p-1600.png"
+        alt=""
+      />
+    </div>
+
+    <div
+      class=" md:max-w-7xl mx-auto gap-20 md:flex justify-between px-10 md:text-left text-center py-16 items-center"
+    >
+      <h1 class=" md:text-3xl text-xl py-3">
+        The <br />
+        ResultS
+      </h1>
+      <p class="text-[#7f7f7f] ">
+        Forbes was able to launch on time, globally, and without <br />
+        interruption to millions of users across the globe.
+      </p>
+    </div>
+
+
+    <div class="md:max-w-7xl mx-auto md:flex gap-12 md:space-y-0 px-10 space-y-9 justify-center py-5 md:text-left text-center">
+      <div class="py-14 px-10 bg-[#f1f3f5]">
+        <h1 class="text-black font-bold py-3">Countries reached</h1>
+        <p class="md:text-2xl text-lg text-gray-500">100s of countries</p>
+      </div>
+      <div class="py-14 px-10 bg-[#f1f3f5]">
+        <h1 class="text-black font-bold py-3">Video content viewed</h1>
+        <p class="md:text-2xl text-lg text-gray-500">Millions of views</p>
+      </div>
+      <div class="py-14 px-10 bg-[#f1f3f5]">
+        <h1 class="text-black font-bold py-3">Devices launched</h1>
+        <p class="md:text-2xl text-lg text-gray-500">iOS, Android, Web</p>
+      </div>
+    </div>
+
+    <section class="max-w-7xl mx-auto py-5 px-10">
+      <div class="flex justify-center">
+        <div class="md:w-2/5 text-center items-center">
+          <h1 class="md:text-3xl text-xl font-bold py-4">Let's Talk</h1>
+          <p class="text-[#7f7f7f]">
+            We’ve worked with clients of all sizes, from enterprise brands to
+            funded startups. Let’s talk about your project and how we can help
+            provide value.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-16 py-4 items-center">
+        <div class="space-y-4 max-w-4xl mx-auto">
+          <input
+            type="text"
+            placeholder="First Name"
+            class="md:w-96  h-14 p-4 rounded-lg bg-slate-100 border"
+          />
+          <input
+            type="text"
+            placeholder="Last Name"
+            class="md:w-96 h-14 p-4 rounded-lg bg-slate-100 border"
+          />
+          <input
+            type="text"
+            placeholder="Email"
+            class="md:w-96 h-14 p-4 rounded-lg bg-slate-100 border"
+          />
+          <input
+            type="text"
+            placeholder="Company"
+            class="md:w-96 h-14 p-4 rounded-lg bg-slate-100 border"
+          />
+          <input
+            type="text"
+            placeholder="Phone Number"
+            class="md:w-96 h-14 p-4 rounded-lg bg-slate-100 border"
+          />
+          <input
+            type="text"
+            placeholder="Budget"
+            class="md:w-96 h-12 p-4 rounded-lg bg-slate-100 border"
+          />
+        </div>
+
+        <input
+          type="text"
+          placeholder="Tell us about your Project. What Problem can we help you Solve?"
+          class="md:w-3/5 border p-4 rounded-md bg-slate-100 boder h-24"
+        />
+      </div>
+
+      <div class="flex justify-center">
+        <button class=" md:py-2 py-2 md:px-5 px-3 rounded-lg bg-black text-white">Sumbit</button>
+      </div>
+    </section>
+
+    <footer class="text-white bg-black p-5 px-10">
+      <div class="max-w-7xl mx-auto md:flex justify-center py-5">
+        <h1 class=" md:text-8xl text-7xl md:text-left text-center font-bold ">u.</h1>
+        <div class="md:flex md:text-left text-center  gap-16 md:space-x-7 leading-8 pt-5 font-medium text-sm">
+          <ul>
+            <li>Case Studies</li>
+            <li>Team</li>
+            <li>Approach</li>
+            <li>Diversity</li>
+            <li>We're Hiring</li>
+            <li>Blog</li>
+            <li>Contact Us</li>
+          </ul>
+          <ul>
+            <li>Services</li>
+            <li>ios App Development</li>
+            <li>Andriod App Development</li>
+            <li>UX/UI Strategy & Design</li>
+            <li>Mobile Game Development</li>
+            <li>Web Platform Development</li>
+          </ul>
+          <ul>
+            <li>Location</li>
+            <li>New York,NY</li>
+            <li>Los Angeles,CA</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="md:flex md:text-left text-center justify-center text-xs py-6 items-center">
+        <h1 class="py-4">
+          © 2019 Utility NYC LLC - Mobile App Developers. All Rights Reserved. |
+        </h1>
+        <a href="#" class="font-bold text underline">Privacy Policy. | </a>
+        <a href="#" class="font-bold text underline">Terms of Use</a>
+      </div>
+    </footer> -->
+
+    <script src="main.js"></script>
+
+  </body>
+</html>

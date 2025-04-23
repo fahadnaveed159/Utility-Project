@@ -1,0 +1,15 @@
+.mobileList {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+    transition: all ease-in;
+}
+
+.navbar {
+    display: block !important;
+    position: absolute !important;
+    top: 80px !important;
+    left: 0;
+    transition: all ease-in;
+    padding: 20px;
+}
